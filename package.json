@@ -8,6 +8,10 @@
     "pretty": "prettier src/index.js > lib/index.js",
     "watch": "node-sass --watch src --output lib"
   },
+  "keywords": [
+    "menu",
+    "dropdown"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:theghall/goto-dropdown.git"
