@@ -2,7 +2,7 @@
   "name": "goto-dropdown",
   "version": "1.0.0",
   "description": "Javascript click dropdowns with CSS fallback",
-  "entry point": "lib/index.js",
+  "main": "lib/index.js",
   "private": false,
   "scripts": {
     "pretty": "prettier src/index.js > lib/index.js",
