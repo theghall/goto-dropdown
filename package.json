@@ -1,0 +1,32 @@
+{
+  "name": "goto-dropown",
+  "version": "1.0.0",
+  "description": "Javascript click dropdowns with CSS fallback",
+  "entry point": "lib/index.js",
+  "private": false,
+  "scripts": {
+    "pretty": "prettier src/index.js > lib/index.js",
+    "watch": "node-sass --watch src --output lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:theghall/goto-dropdown.git"
+  },
+  "author": "Gary Hall <gary.hall@jennystampsup.com>",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "node-sass": "^4.9.0",
+    "prettier": "1.12.1",
+    "sass-loader": "^7.0.1"
+  },
+  "dependencies": {}
+}
