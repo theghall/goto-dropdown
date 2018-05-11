@@ -1,5 +1,5 @@
 {
-  "name": "goto-dropown",
+  "name": "goto-dropdown",
   "version": "1.0.0",
   "description": "Javascript click dropdowns with CSS fallback",
   "entry point": "lib/index.js",
