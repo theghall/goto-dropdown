@@ -73,6 +73,10 @@ $textColor: #000;
   	cursor: pointer;
   }
 
+  .more-menu {
+    display: none;
+  }
+
   .goto-submenu {
   	background: $normalBackground;
     min-width: 5rem;
@@ -99,6 +103,41 @@ $textColor: #000;
   li .goto-submenu li {
   	clear: both;
     width: 100%;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 791px) {
+
+  .goto-nav {
+
+    li {
+      padding: 0;
+      clear: left;
+    }
+
+    .goto-menu {
+      visibility: hidden;
+      opacity: 0;
+      display: none;
+    }
+
+    .goto-submenu {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      text-align: center;
+    }
+
+    .more-menu {
+      display: block;
+    }
+
+    &:hover .goto-menu{
+      visibility: visible;
+      opacity: 1;
+      display: block;
+    }
   }
 }
 /* ==================== End goto-style.css =======================*/
