@@ -59,6 +59,7 @@ $textColor: #000;
     background: $normalBackground;
   	display: block;
   	float: left;
+    min-width: 5rem;
   	padding: 1rem;
   	position: relative;
   	text-decoration: none;
@@ -78,8 +79,6 @@ $textColor: #000;
   }
 
   .goto-submenu {
-  	background: $normalBackground;
-    min-width: 5rem;
   	position: absolute;
     margin-top: 1rem;
   	left: 0;
@@ -107,7 +106,7 @@ $textColor: #000;
 }
 
 /* Media queries */
-@media only screen and (max-width: 791px) {
+@media only screen and (max-width: 550px) {
 
   .goto-nav {
 
